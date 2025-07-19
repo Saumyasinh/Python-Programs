@@ -1,0 +1,11 @@
+import pandas as pd
+df = pd.read_csv("C:\\Python\\Example\\matplotlib\\sales_data.csv")
+profitlist = df['total_profit'].tolist()
+monthlist = df['month_number'].tolist()
+plt.plot(monthlist, profitlist, label = 'Month-wise Profit Data of Last Year')
+plt.xlabel('Month Number')
+plt.ylabel('Profit in Dollars')
+plt.xticks('MonthList')
+plt.title('Company Profit per month')
+plt.yticks([100000,200000,300000,400000,500000])
+plt.show()
