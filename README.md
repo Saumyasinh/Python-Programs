@@ -23,4 +23,3 @@ To run these programs, make sure you have:
 
 ## 🚀 How to Run
 Open VS code and run your code.
-# Python-Programs
